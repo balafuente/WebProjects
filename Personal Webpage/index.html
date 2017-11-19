@@ -1,0 +1,90 @@
+<!--Blake LaFuente - CIS 525 - Project 1 Index Personal Page-->
+<!DOCTYPE html>
+<html>
+<head>
+<!--Viewport needed for responsive web design-->
+  <meta charset="UTF-8" data-name="viewport" data-content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<!--Dropdown Navigation Bar-->
+    <div id="nav">
+    	<!--Link to homepage/personal webpage-->
+    	<form style = "display: inline" action = "index.html" method="get"><button class = "dropbtn">Home</button></form> | 
+    	<div class = "dropdown"> 
+        	<button class ="dropbtn">My Courses</button> 
+            <div class="dropdown-content">
+            	<!--Link to Course Page-->
+            	<a href="coursePage.html">CIS 525</a>
+              	<a href="#">CIS 553</a>
+              	<a href="#">CIS 578</a>
+           	</div>
+          </div>
+      | <div class = "dropdown"> 
+          	<button class = "dropbtn">About Me</button> 
+        	<div class="dropdown-content">
+              	<a href="#">Biography</a>
+              	<a href="#">Resume</a>
+              	<a href="#">Family</a>
+          	</div>|
+        	</div>
+      	<div class = "dropdown"> 
+        	<button class = "dropbtn">My Projects</button>
+         	 <div class="dropdown-content">
+           	 	<a href="#">Web Pages</a>
+            	<a href="#">Algorithms</a>
+            	<a href="#">Other</a>
+          	</div> 
+        	</div> | 
+          	<form style = "display: inline" action = "#" method="get"><button class = "dropbtn">Contact</button></form>  
+        </div>
+    <!--Web Page Title-->
+    <div id="logo">Blake LaFuente's Webpage</div> 
+  	<div id="main-content">
+		<div id="left-column">
+		<!--Picture of Mysekf-->
+			<div id="image"><img src="profile.jpg"  
+				style="max-width:75%;height:auto;" alt="A picture of me!"></div>
+      	<div class="box">
+      	<!--List of Courses-->	
+      		<h1>My Classes This Semester:</h1>
+      			<ul style="margin-top:10px;">
+      				<!--Link to Course Page-->
+        			<li><a href="coursePage.html">CIS 525: <em>Web Technology</em></a></li>
+					<li>CIS 553: <em>Software Engineering</em></li>
+					<li>CIS 578: <em>Advanced Operating Systems</em></li>
+				</ul>
+			</div>
+		</div>	
+		</div>
+	<!--Right Side of Web Page-->
+	<div id="right-column">
+	<!--Biography-->
+		<div class="box2">
+        	<h1>Biography:</h1>
+        		<p>My name is Blake and I am a Master's student in the Department of 
+        		Computer and Information Sciences at the University of Michigan Dearborn. 
+        		I am originally from Milan, MI. I went to UofM in Ann Arbor for my 
+        		undergraduate studies where I was a member of the Marching Band. Currently
+        		 I work as a Software Developer at a company called Groundspeed Analytics
+        		 that uses machine learning to analyze insurance data. For fun I like to 
+        		 run, play guitar, and read as many books as possible.</p>
+		</div>
+		<div id = "text">
+			<!--List of Favorite sports teams with web links-->	
+			<h3>My Three Favorite Sports Teams</h3>
+			<ol>
+          	<li><a href="http://www.liverpoolfc.com/">Liverpool Football Club</a></li>
+          	<li><a href="http://www.detroitlions.com/">Detroit Lions</a></li>
+          	<li><a href="http://www.mgoblue.com/">Michigan Wolverines</a></li>
+        	</ol>
+        </div>
+        <!--Michigan Logo-->	
+		<div id="image2"><img src="umichLogo.jpg" style="max-width:75%;height:auto;" 
+			alt="University of Michigan Logo"></div>
+	</div>
+	<!--Footer-->
+	<div id="footer"><div id="footer_contents">Copyright &copy; 2017 Blake LaFuente. All rights reserved.</div><br/></div>
+</body>
+</html>

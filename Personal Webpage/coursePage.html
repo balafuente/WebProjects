@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--viewport allows for responsive web design-->
+  <meta charset="UTF-8" data-name="viewport" data-content="width=device-width, initial-scale=1.0" >
+    <title>525 Course Page</title>
+    <link href="courseStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--Beginning of Dropdown Navigation Bar-->
+<div id="nav">
+	<!--Link to homepage/personal webpage-->
+	<form style = "display: inline" action = "index.html" method="get"><button class = "dropbtn">Home</button></form> | 
+    	<div class = "dropdown"> 
+        	<button class ="dropbtn">My Courses</button> 
+            <div class="dropdown-content">
+            	<!--Link to Course Page-->
+            	<a href="coursePage.html">CIS 525</a>
+              	<a href="#">CIS 553</a>
+              	<a href="#">CIS 578</a>
+           	</div>
+          </div>
+      | <div class = "dropdown"> 
+          	<button class = "dropbtn">About Me</button> 
+        	<div class="dropdown-content">
+              	<a href="#">Biography</a>
+              	<a href="#">Resume</a>
+              	<a href="#">Family</a>
+          	</div>|
+        	</div>
+      	<div class = "dropdown"> 
+        	<button class = "dropbtn">My Projects</button>
+         	 <div class="dropdown-content">
+           	 	<a href="#">Web Pages</a>
+            	<a href="#">Algorithms</a>
+            	<a href="#">Other</a>
+          	</div> 
+        	</div> | 
+          	<form style = "display: inline" action = "#" method="get"><button class = "dropbtn">Contact</button></form>  
+        </div>
+<!--Webpage Logo-->    
+<div id="logo">CIS 525: Web Technology</div> 
+	<div id="main-content">
+		<div id="left-column">
+		<div class ="box">
+      		<h1>Description of Course:</h1>
+      		<p>This course deals with the study of the technologies used to design and 
+      		implement multimedia web sites. Topics include web servers, HTML, CGI, scripting
+      		languages, Java applets, back-end database connectivity, web security, multimedia,
+      		XML, web services, .NET, semantic web.</p>
+      	</div>
+      <div id="text">
+        <h2>List of Topics:</h2>
+      		<ol>
+      		<li>HTML 5 and CSS</li>
+			<li>JavaScript, JSON, jQuery</li>
+			<li>Web servers (Apache and IIS), Backend Database Processing: MySQL</li>
+			<li>PHP</li>
+			<li>XML and XSL, AJAX</li>
+			<li>AngularJS</li>
+			<li>HTTPS, Web security</li>
+      		</ol>
+      	</div>
+    </div>      
+    </div>
+    	<div id="right-column">
+        	<div id="image"><img src="courseLogo.jpg"
+        		style="max-width:75%;height:auto;" alt="Picture of Web Development apps"></div>      
+            <div id="text2"><h2>Assignments:</h2>
+        		<p><b><u>Project 1</u>:</b> Personal Webpage and Course Page.</p> 
+         		<p><b><u>Term Project</u>:</b> The term project I am doing is on making an
+         		 online textbook and assignment interface.</p>
+      		</div>
+      	<div class="box2"><h1>Useful Web Resources:</h1>
+      		<ul>
+      		<li><a href="www.w3schools.com">W3Schools</a></li>
+      		<li><a href="stackoverflow.com">Stack Overflow</a></li>
+      		<li><a href="canvas.umd.umich.edu/">Canvas</a></li>
+      		</ul>
+      	</div>
+	</div>
+	<div id="footer"><div id="footer_contents">Copyright &copy; 2017 Blake LaFuente. All 
+		rights reserved.</div><br/></div>
+</body>
+</html>

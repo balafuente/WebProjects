@@ -1,0 +1,26 @@
+/*CIS 525 Project 2: Fifteen Puzzle
+by Blake LaFuente
+November 7,2017 */
+
+.table {
+	/*Entire tale*/
+	border-style: solid;
+	border-color: black;
+ 	border-width: 10px;
+	margin: 5px;
+	background-color: blue;
+}
+.box {
+	/*Each cell of table*/
+	width: 100px;
+	height: 100px;
+	margin: 1px;
+	text-align: center;
+	border-style: solid;
+	border-color: blue;
+	background-color: yellow;
+ 	border-width: 5px;
+	font-weight: bold;
+	font-size: 200%;
+	padding: 0px;
+}
